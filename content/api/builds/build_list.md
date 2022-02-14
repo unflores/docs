@@ -11,6 +11,15 @@ Please note this api requires read access to the repository.
 GET /api/repos/{owner}/{repo}/builds
 ```
 
+Example Request Body:
+```json {linenos=table}
+{
+  "page": 1,
+  "per_page": 25
+}
+```
+
+
 Example Response Body:
 
 ```json {linenos=table}
